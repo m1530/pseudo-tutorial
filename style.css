@@ -1,0 +1,73 @@
+.title{
+    text-align: center;
+}
+h1{
+    background-color: lightseagreen;
+    height: 200px;
+    width: 300px;
+    display: inline;
+    margin-left: 200px;
+    margin-bottom: 200px;
+}
+span{
+    display: inline;
+    background-color: lightseagreen;
+    height: 200px;
+    width: 300px;
+    margin-bottom: 4px;
+}
+
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: indianred;
+    background-color: indigo;
+}
+
+input:focus{
+    color: yellow;
+    background-color: rebeccapurple;
+}
+
+h2::after{
+    content: " new";
+}
+
+h2::before{
+    content: "Hello ";
+}
+li:first-child{
+    background-color: red;
+}
+
+li:last-child{
+background-color: tomato;
+}
+li:nth-child(2n){
+    background-color: sienna;
+}
+
+.boy{
+position: relative;
+top: 75px;
+z-index: 2;
+}
+.swim{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.ring{
+    position: relative;
+    z-index: 1;
+}
+.water{
+    position: relative;
+    top: -80px;
+}
+.dummy{
+    width: 300px;
+    height: 200px;
+    background-color: tomato;
+}
